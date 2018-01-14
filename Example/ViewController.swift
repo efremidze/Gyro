@@ -2,14 +2,15 @@
 //  ViewController.swift
 //  Example
 //
-//  Created by Lasha Efremidze on 1/12/18.
+//  Created by Lasha Efremidze on 1/13/18.
 //  Copyright © 2018 Lasha Efremidze. All rights reserved.
 //
 
 import UIKit
+import Gyro
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -20,6 +21,5 @@ class ViewController: UIViewController {
             print("yaw \(yaw)")
         }
     }
-
+    
 }
-
